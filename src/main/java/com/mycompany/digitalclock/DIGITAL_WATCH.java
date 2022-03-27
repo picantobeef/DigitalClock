@@ -201,7 +201,7 @@ public class DIGITAL_WATCH extends javax.swing.JFrame implements Runnable {
                 day = c.get(Calendar.DAY_OF_MONTH);
 
                 SimpleDateFormat sdf = new SimpleDateFormat("hh:mm:ss a");
-                SimpleDateFormat df = new SimpleDateFormat("MM:dd:yyyy");
+                SimpleDateFormat df = new SimpleDateFormat("MM-dd-yyyy");
                 Date dat = c.getTime();
 
                 timeStr = sdf.format(dat);
